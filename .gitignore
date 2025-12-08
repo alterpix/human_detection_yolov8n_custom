@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Dataset (too large for git)
+dataset/images/
+dataset/labels/
+dataset/*.cache
+renders/
+
+# Model weights (too large, use Git LFS if needed)
+models/*.pt
+!models/.gitkeep
+
+# Training outputs
+runs/
+*.log
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+debug_*.png
+
+# Kaggle
+kaggle.json
+
+# Other
+*.zip
+*.tar.gz

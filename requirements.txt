@@ -1,0 +1,27 @@
+# YOLOv8 and dependencies
+ultralytics>=8.3.0
+
+# Image and video processing
+opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Visualization and utilities
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# For data handling and YAML parsing
+pandas>=2.0.0
+pyyaml>=6.0
+
+# For scientific computing (required by scipy)
+scipy>=1.10.0
+
+# Optional: for labeling tools
+labelme>=5.3.0
+
+# Optional: if you use Jupyter or notebook-based training
+jupyter>=1.0.0
+notebook>=7.0.0
+
